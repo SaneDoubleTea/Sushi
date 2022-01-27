@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="../css/style.css" />
+      <link rel="stylesheet" href="../css/card-page.css" />
+      <link rel="stylesheet" href="../css/fonts.css" />
+      <link rel="stylesheet" href="../css/swiper.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <!-- wrapper -->
+      <div class="wrapper">
+         <!-- main -->
+         <main>
+            <!-- side-left -->
+            <aside class="sidebar-left">
+               <div class="logo">
+                  <a href="../index.html">
+                     <img class="logo__img" src="../img/svg/logo.svg" />
+                     <p>Romsem</p>
+                  </a>
+               </div>
+               <div class="sidebar-menu">
+                  <nav>
+                     <ul>
+                        <li>
+                           <a href="card-page.html" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/pizza.svg" alt="pizza" />
+                              Пицца</a
+                           >
+                        </li>
+                        <li>
+                           <a href="../products/products.html" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/sets.svg" alt="pizza" />
+                              Сеты</a
+                           >
+                        </li>
+
+                        <li>
+                           <a href="#!" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/wok.svg" alt="pizza" />
+                              WOK</a
+                           >
+                        </li>
+
+                        <li>
+                           <a href="#!" class="sidebar-menu__item">
+                              <img
+                                 src="../img/svg/sidebar-menu/roll.svg"
+                                 alt="pizza"
+                              />Роллы
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#!" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/sushi.svg" alt="pizza" />
+                              Суши</a
+                           >
+                        </li>
+
+                        <li class="at-work">
+                           <a href="#!" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/salad.svg" alt="pizza" />
+                              Салаты</a
+                           >
+                        </li>
+
+                        <li class="at-work">
+                           <a href="#!" class="sidebar-menu__item">
+                              <img
+                                 src="../img/svg/sidebar-menu/sup.svg"
+                                 alt="pizza"
+                              />Супы
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#!" class="sidebar-menu__item">
+                              <img
+                                 src="../img/svg/sidebar-menu/corn-dog.svg"
+                                 alt="pizza"
+                              />
+                              Корн доги</a
+                           >
+                        </li>
+
+                        <li>
+                           <a href="#!" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/drinks.svg" alt="pizza" />
+                              Напитки</a
+                           >
+                        </li>
+
+                        <li>
+                           <a href="#!" class="sidebar-menu__item">
+                              <img src="../img/svg/sidebar-menu/sale.svg" alt="pizza" />
+                              Акции</a
+                           >
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </aside>
+            <!-- //side-left -->
+
+            <div class="content">
+               <header class="content-header header">
+                  <div class="row">
+                     <div class="header-row">
+                        <div class="header-contacts">
+                           <div class="header-contacts__tel">
+                              <p>Наш телефон</p>
+                              <span> <a href="#!">+996 705 188 955</a> </span>
+                              <span><a href="#!">+996 555 188 955</a> </span>
+                           </div>
+
+                           <div class="header-contacts__info">
+                              <span>работаем с 10:00 до 00:00</span>
+                           </div>
+                        </div>
+                        <div class="header-location">
+                           <span class="header-location__city">Город:</span>
+                           <span class="header-location__city-name">Бишкек</span>
+                        </div>
+                     </div>
+
+                     <nav class="nav">
+                        <ul>
+                           <li><a href="../reviews/reviews.html">Отзывы</a></li>
+                           <li><a href="#!">Доставка и оплата</a></li>
+                        </ul>
+                        <div class="nav__search">
+                           <!--   <input type="search" /> -->
+                           <label for="search">
+                              <img
+                                 class="nav__search__img"
+                                 src="../img/svg/search.svg"
+                                 alt="search"
+                              />
+                           </label>
+                        </div>
+                     </nav>
+                  </div>
+               </header>
+               <!-- main-content -->
+               <div class="content-main">
+                  <div class="container-buttons">
+                     <button class="button-prev button-top">
+                        <img src="../img/svg/arrow-prev.svg" alt="button-prev" />
+                        <span> Назад </span>
+                     </button>
+                     <button class="button-next button-top">
+                        <span>Вперед</span>
+                        <img src="../img/svg/arrow-next.svg" alt="button-next" />
+                     </button>
+                  </div>
+                  <div class="card-item">
+                     <div class="card-item__img">
+                        <img
+                           class="card-item__img-pic"
+                           src="../img/card-page/фила-лосось-сет.png"
+                           alt=""
+                        />
+                     </div>
+                     <div class="card-item__content">
+                        <p class="card-item__title">Филадельфия и лосось сет</p>
+                        <p class="card-item__weight">290 грамм</p>
+                        <div class="card-item__price-box">
+                           <p class="card-item__price">1150 СОМ</p>
+
+                           <div class="card-item__amount counter-wrapper">
+                              <button
+                                 data-action="minus"
+                                 class="card-item__amount-btn btn-minus"
+                              >
+                                 <img src="../img/card-page/minus.svg" alt="" />
+                              </button>
+                              <span class="card-item__counter" data-counter>1</span>
+                              <button
+                                 data-action="plus"
+                                 class="card-item__amount-btn btn-plus"
+                              >
+                                 <img src="../img/card-page/plus.svg" alt="" />
+                              </button>
+                           </div>
+                        </div>
+                        <div class="card-item__compound">
+                           <p>Состав</p>
+                           <span>Лосось, сыр "Филадельфия", огурец, авокадо</span>
+                        </div>
+                        <button data-cart type="button" class="card-item__button">
+                           Хочу!
+                        </button>
+                     </div>
+                  </div>
+                  <!-- Slider main container -->
+                  <div class="swiper mySwiper3">
+                     <!-- Additional required wrapper -->
+                     <div class="swiper-title">Рекомендуем к этому товару</div>
+
+                     <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                           <div class="swiper-slide-item item-1">
+                              <div class="swiper-slide-item__img">
+                                 <img src="../img/card-page/товары/fila.png" alt="" />
+                              </div>
+                              <p class="swiper-slide-item__title">Филадельфия</p>
+                              <div class="swiper-slide-item__box">
+                                 <p class="swiper-slide-item__price">140 СОМ</p>
+                                 <button class="swiper-slide-item__btn btn-add">
+                                    <img src="../img/card-page/plus.svg" alt="" />
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                           <div class="swiper-slide-item item-2">
+                              <div class="swiper-slide-item__img">
+                                 <img src="../img/card-page/товары/банзай.png" alt="" />
+                              </div>
+                              <p class="swiper-slide-item__title">Банзай</p>
+                              <div class="swiper-slide-item__box">
+                                 <p class="swiper-slide-item__price">170 СОМ</p>
+                                 <button class="swiper-slide-item__btn btn-add">
+                                    <img src="../img/card-page/plus.svg" alt="" />
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                           <div class="swiper-slide-item item-3">
+                              <div class="swiper-slide-item__img">
+                                 <img src="../img/card-page/товары/аригато.png" alt="" />
+                              </div>
+                              <p class="swiper-slide-item__title">Аригато</p>
+                              <div class="swiper-slide-item__box">
+                                 <p class="swiper-slide-item__price">180 СОМ</p>
+                                 <button class="swiper-slide-item__btn btn-add">
+                                    <img src="../img/card-page/plus.svg" alt="" />
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- // -->
+                        <div class="swiper-slide">
+                           <div class="swiper-slide-item item-1">
+                              <div class="swiper-slide-item__img">
+                                 <img src="../img/card-page/товары/fila.png" alt="" />
+                              </div>
+                              <p class="swiper-slide-item__title">Филадельфия</p>
+                              <div class="swiper-slide-item__box">
+                                 <p class="swiper-slide-item__price">140 СОМ</p>
+                                 <button class="swiper-slide-item__btn btn-add">
+                                    <img src="../img/card-page/plus.svg" alt="" />
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide-item item-2">
+                              <div class="swiper-slide-item__img">
+                                 <img src="../img/card-page/товары/банзай.png" alt="" />
+                              </div>
+                              <p class="swiper-slide-item__title">Банзай</p>
+                              <div class="swiper-slide-item__box">
+                                 <p class="swiper-slide-item__price">170 СОМ</p>
+                                 <button class="swiper-slide-item__btn btn-add">
+                                    <img src="../img/card-page/plus.svg" alt="" />
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide-item item-3">
+                              <div class="swiper-slide-item__img">
+                                 <img src="../img/card-page/товары/аригато.png" alt="" />
+                              </div>
+                              <p class="swiper-slide-item__title">Аригато</p>
+                              <div class="swiper-slide-item__box">
+                                 <p class="swiper-slide-item__price">180 СОМ</p>
+                                 <button class="swiper-slide-item__btn btn-add">
+                                    <img src="../img/card-page/plus.svg" alt="" />
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- // -->
+                     </div>
+                     <!--  кнопки нав -->
+                     <div class="swiper-button-prev img-slider__button"></div>
+                     <div class="swiper-button-next img-slider__button"></div>
+                  </div>
+               </div>
+               <!-- //main-content -->
+               <!-- footer -->
+               <footer class="footer">
+                  <div class="footer-container">
+                     <div class="footer-nav">
+                        <nav>
+                           <ul>
+                              <li><a href="">О компании</a></li>
+                              <li><a href="">Доставка и оплата</a></li>
+                              <li><a href="">Лента материалов</a></li>
+                              <li><a href="">Политика возврата</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="footer-links">
+                        <div class="footer-links__title">
+                           <p>Введите номер</p>
+                        </div>
+                        <div class="footer-links-tel">
+                           <input
+                              type="tel"
+                              name="phone"
+                              placeholder="+380 (__) ___ __ __"
+                           />
+                        </div>
+                        <p class="footer-links__info">
+                           Выберите удобный мессенджер для общения
+                        </p>
+
+                        <div class="footer__links__items">
+                           <div class="footer__link">
+                              <a href="https://www.whatsapp.com/"
+                                 ><img src="../img/svg/footer/whatsapp.svg" alt="" />
+                              </a>
+                           </div>
+                           <div class="footer__link">
+                              <a href="https://www.telegram.com/">
+                                 <img src="../img/svg/footer/telegram.svg" alt="" />
+                              </a>
+                           </div>
+                           <div class="footer__link">
+                              <a href="https://www.instagram.com/"
+                                 ><img src="../img/svg/footer/instagram.svg" alt="" />
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-info">
+                        <div class="footer-tel">
+                           <div><a href="#!">Тел:+996 705 188 955 </a></div>
+                           <div><a href="#!">Тел:+996 555 188 955 </a></div>
+                           <div><a href="#!">Адрес:Бакаева 126</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </footer>
+               <!--// footer -->
+            </div>
+            <!-- side-right  -->
+            <aside class="sidebar-right">
+               <div class="cart">
+                  <div class="cart-wrapper">
+                     <div class="cart__title none">
+                        <h5 class="cart__title-title">Корзина</h5>
+                     </div>
+
+                     <div class="cart-box" data-cart-empty>
+                        <p class="cart__subtitle">Ваша корзина пуста</p>
+                        <p class="cart__subtitle-2">Добавьте же скорее что-нибудь!</p>
+                        <p class="cart__text">Бесплатная доставка от 800 СОМ</p>
+                     </div>
+                  </div>
+
+                  <div class="order-form-wrapper none" id="order-form">
+                     <!--  <div class="order-form__delivery none" data-cart-delivery>
+                        <span class="order-form__delivery-cost">Dostavak:</span>
+                        <span class="order-form__delivery-cost-price ">250 COM</span>
+                     </div> -->
+                     <form class="order-form none">
+                        <span class="order-form__price">0 </span>
+                        <span class="order-form__price-currency">COM</span>
+                        <a href="../index.html" type="submit" class="order-form__btn">
+                           Оформить заказ
+                        </a>
+                     </form>
+                  </div>
+               </div>
+
+               <div class="map-container">
+                  <div class="map">
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d81236.30181141626!2d30.472122999999996!3d50.485149!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1639596579383!5m2!1sru!2sua"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                     ></iframe>
+                     <div class="map-address">
+                        <div class="map__location">
+                           <img src="../img/svg/location.svg" alt="" />
+                        </div>
+                        <p class="map-address__title">Укажите адрес</p>
+                        <p class="map-address__subtitle">И узнайте время доставки</p>
+                     </div>
+                  </div>
+               </div>
+            </aside>
+            <!-- //side-right  -->
+         </main>
+         <!-- //main -->
+      </div>
+      <!-- //wrapper -->
+      <!-- scripts -->
+      <script src="../js/calcCartPrice.js"></script>
+      <script src="../js/toggleCartStatus.js"></script>
+      <script src="../js/counter.js"></script>
+      <script src="../js/cart.js"></script>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="../js/swiper.js"></script>
+   </body>
+</html>
